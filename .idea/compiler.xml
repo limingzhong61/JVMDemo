@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Code" />
+        <module name="JVMDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Code" options="-verbose -bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_321/lib/rt.jar;C:/Program Files/Java/jdk-11.0.13/lib/jce.jar;C:\Program Files\Java\jdk1.8.0_321/lib/jsse.jar&quot;" />
+    </option>
+  </component>
+</project>
