@@ -12,6 +12,7 @@ package com.atguigu.java.chapter05;
 public class StringBuilderTest {
 
     // s1的声明方式是线程安全的
+    //每次都是new的局部对象，多线程也是安全的，引用是放在局部变量表里的，是私有的
     public static void method01() {
         // 线程内部创建的，属于局部变量
         StringBuilder s1 = new StringBuilder();
