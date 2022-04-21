@@ -14,7 +14,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Code" options="-verbose -bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_321/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_321/jre/lib/jce.jar;C:\Program Files\Java\jdk1.8.0_321/lib/jsse.jar&quot;" />
+      <module name="Code" options="-verbose -bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_321/lib/rt.jar;C:/Program Files/Java/jdk-17.0.3/lib/jce.jar;C:\Program Files\Java\jdk1.8.0_321/lib/jsse.jar&quot;" />
     </option>
   </component>
 </project>
