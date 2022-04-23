@@ -1,9 +1,8 @@
-package com.atguigu.java.chapter17;
+package chapter17;
 
 /**
  * GC垃圾收集过程
- * @author: 
- * @create: 2020-07-14-8:35
+ * -XX:+PrintCommandLineFlags
  */
 public class GCUseTest {
     static final Integer _1MB = 1024 * 1024;
