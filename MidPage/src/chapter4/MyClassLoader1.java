@@ -1,4 +1,4 @@
-package chapter5;
+package chapter4;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;

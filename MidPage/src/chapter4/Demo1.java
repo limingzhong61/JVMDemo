@@ -1,4 +1,4 @@
-package chapter5;
+package chapter4;
 
 public class Demo1 {
     public void hot() {

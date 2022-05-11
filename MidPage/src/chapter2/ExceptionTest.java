@@ -45,9 +45,20 @@ public class ExceptionTest {
             str = "atguigu";
         }
     }
+    //思考:如下方法返回结果为多少?
+    public static String func2() {
+        String str = "hello";
+        try {
+            str = "hello";
+        } finally {
+            str = "atguigu";
+        }
+        return str;
+    }
 
     public static void main(String[] args) {
         System.out.println(func());//hello
+        System.out.println(func2());//hello
     }
 
 }

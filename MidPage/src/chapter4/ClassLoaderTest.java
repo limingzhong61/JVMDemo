@@ -9,7 +9,7 @@ import java.security.Provider;
  * @author:
  * @create: 2020-07-05-10:17
  */
-public class ClassLoaderTest1 {
+public class ClassLoaderTest {
     public static void main(String[] args) {
         System.out.println("*********启动类加载器************");
         // 获取BootstrapClassLoader 能够加载的API的路径

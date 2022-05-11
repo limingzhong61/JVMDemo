@@ -9,9 +9,9 @@ public class ClassLoaderTest {
         //获取系统类加载器
         System.out.println(ClassLoader.getSystemClassLoader());
         //获取平台类加载器.
-        System.out.println(ClassLoader.getPlatformClassLoader());
+        //System.out.println(ClassLoader.getPlatformClassLoader());
         //获取类的加载器的名称
-        System.out.println(ClassLoaderTest.class.getClassLoader().getName());
+        //System.out.println(ClassLoaderTest.class.getClassLoader().getName());
     }
 
 }
