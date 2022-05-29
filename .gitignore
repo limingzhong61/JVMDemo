@@ -3,6 +3,7 @@ words.txt
 java_pid*
 /out
 /logs
+.idea/
 ### Maven template
 target/
 pom.xml.tag
